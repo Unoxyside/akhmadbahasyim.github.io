@@ -1,0 +1,210 @@
+/* lg*/
+@media screen and (max-width : 1280px) {
+    #hero .big-text {
+        font-size: 3.6rem;
+        line-height: 54px;
+
+    }
+
+    #hero .small-text {
+        line-height: 1rem;
+        font-size: 18px;
+    }
+
+
+    #hero .avatar img {
+        width: 90%;
+    }
+
+
+
+
+}
+
+@media screen and (min-width : 1280px) {
+    .arrow {
+        margin-top: 6rem;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: #DEDEDE;
+    }
+}
+
+
+/* Tablet */
+@media screen and (max-width : 991px) {
+    #hero .big-text {
+        font-size: 3.4rem;
+        line-height: 54px;
+
+    }
+
+    #hero .avatar img {
+        width: 40%;
+    }
+
+    #hero .small-text {
+        line-height: .8rem;
+        font-size: 17px;
+    }
+
+    #hero .email-button button {
+        width: 100%;
+    }
+}
+
+
+/* sm */
+@media screen and (max-width : 767px) {
+    #hero {
+        text-align: center;
+    }
+
+    #hero .big-text {
+        font-size: 100%;
+        line-height: 40%;
+
+    }
+
+    #hero .avatar img {
+        width: 50%;
+
+    }
+
+    #hero .small-text {
+        line-height: .3rem;
+        font-size: 50%;
+    }
+
+    #hero .bhsym {
+        order: -1000 !important;
+        text-align: center;
+
+    }
+
+    #feature .pict img {
+        margin-bottom: 1.5rem;
+    }
+
+    .arrow {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-family: Manrope;
+        font-size: 80%;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: #DEDEDE;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .arrow img {
+        width: 0.7rem;
+        display: inline-flexbox;
+    }
+
+    #visualex {
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (min-width : 768px) {
+    #feature .satu {
+        margin-top: 3rem;
+    }
+
+    #feature .dua {
+        margin-top: 12rem;
+    }
+
+    #feature .tiga {
+        margin-top: -7.5rem;
+    }
+
+    #feature .empat {
+        margin-top: 1.5rem;
+    }
+
+    .arrow {
+        margin-top: 6rem;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: #DEDEDE;
+    }
+}
+
+@media screen and (max-width : 428px) {
+    .email-button button {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .email-button button:hover {
+        margin-top: 2rem;
+    }
+
+    #contact h3 {
+        font-size: 2rem;
+    }
+
+    #contact p {
+        font-size: 1rem;
+    }
+
+    #footer .copyright {
+        font-size: 0.7rem;
+
+    }
+
+    #contact button {
+        font-size: 0.9rem;
+        block-size: 2.5rem;
+
+    }
+
+    #contact button:hover {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width : 375px) {
+
+    #hero .big-text {
+        font-size: 80%;
+        line-height: 40%;
+
+    }
+
+    #contact h3 {
+        font-size: 1.5rem;
+    }
+
+    #contact p {
+        font-size: 0.8rem;
+    }
+
+    #contact {
+        margin-top: 10rem;
+    }
+
+    #footer .container {
+        margin-top: 7rem;
+    }
+
+}
